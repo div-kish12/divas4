@@ -1,0 +1,157 @@
+11:37:32.425 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+11:37:32.425 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+11:38:15.619 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+11:38:15.620 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:28:37.760 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:28:37.760 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:28:52.434 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:28:52.435 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:28:54.493 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+14:30:11.366 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:30:11.367 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:30:12.379 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+14:30:44.852 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:30:44.853 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:30:45.827 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+14:34:22.428 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:34:22.429 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:34:23.469 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+14:34:41.829 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:34:41.830 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:34:42.815 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+14:47:22.538 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:47:22.538 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:47:27.170 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:47:27.171 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:47:28.169 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+14:47:41.017 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:47:41.018 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:47:41.980 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+15:04:18.317 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:04:18.317 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+15:04:29.561 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:04:29.562 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+15:04:30.533 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+15:42:41.759 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:42:41.759 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+15:43:06.285 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:43:06.285 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+15:43:07.388 INFO  [main                 ] VisualSpectator     : - Inside destroyEntityMsgHandler
+15:44:49.028 ERROR [pool-3-thread-1      ] ActiveMQMessageConsumer: - ID:MAVS09-64179-1402516042673-1:1:2:1 failed to delivered acknowledgements
+javax.jms.JMSException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:62)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1292)
+	at org.apache.activemq.ActiveMQConnection.asyncSendPacket(ActiveMQConnection.java:1284)
+	at org.apache.activemq.ActiveMQSession.asyncSendPacket(ActiveMQSession.java:1898)
+	at org.apache.activemq.ActiveMQSession.sendAck(ActiveMQSession.java:2064)
+	at org.apache.activemq.ActiveMQMessageConsumer$4.run(ActiveMQMessageConsumer.java:748)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.activemq.transport.InactivityIOException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.transport.AbstractInactivityMonitor.doOnewaySend(AbstractInactivityMonitor.java:282)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.oneway(AbstractInactivityMonitor.java:271)
+	at org.apache.activemq.transport.TransportFilter.oneway(TransportFilter.java:85)
+	at org.apache.activemq.transport.WireFormatNegotiator.oneway(WireFormatNegotiator.java:104)
+	at org.apache.activemq.transport.MutexTransport.oneway(MutexTransport.java:68)
+	at org.apache.activemq.transport.ResponseCorrelator.oneway(ResponseCorrelator.java:60)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1290)
+	... 10 more
+15:44:49.031 ERROR [pool-4-thread-1      ] ActiveMQMessageConsumer: - ID:MAVS09-64179-1402516042673-1:1:2:2 failed to delivered acknowledgements
+javax.jms.JMSException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:62)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1292)
+	at org.apache.activemq.ActiveMQConnection.asyncSendPacket(ActiveMQConnection.java:1284)
+	at org.apache.activemq.ActiveMQSession.asyncSendPacket(ActiveMQSession.java:1898)
+	at org.apache.activemq.ActiveMQSession.sendAck(ActiveMQSession.java:2064)
+	at org.apache.activemq.ActiveMQMessageConsumer$4.run(ActiveMQMessageConsumer.java:748)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.activemq.transport.InactivityIOException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.transport.AbstractInactivityMonitor.doOnewaySend(AbstractInactivityMonitor.java:282)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.oneway(AbstractInactivityMonitor.java:271)
+	at org.apache.activemq.transport.TransportFilter.oneway(TransportFilter.java:85)
+	at org.apache.activemq.transport.WireFormatNegotiator.oneway(WireFormatNegotiator.java:104)
+	at org.apache.activemq.transport.MutexTransport.oneway(MutexTransport.java:68)
+	at org.apache.activemq.transport.ResponseCorrelator.oneway(ResponseCorrelator.java:60)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1290)
+	... 10 more
+15:44:49.029 ERROR [pool-31-thread-1     ] ActiveMQMessageConsumer: - ID:MAVS09-65254-1402519386444-1:1:2:1 failed to delivered acknowledgements
+javax.jms.JMSException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:62)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1292)
+	at org.apache.activemq.ActiveMQConnection.asyncSendPacket(ActiveMQConnection.java:1284)
+	at org.apache.activemq.ActiveMQSession.asyncSendPacket(ActiveMQSession.java:1898)
+	at org.apache.activemq.ActiveMQSession.sendAck(ActiveMQSession.java:2064)
+	at org.apache.activemq.ActiveMQMessageConsumer$4.run(ActiveMQMessageConsumer.java:748)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.activemq.transport.InactivityIOException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.transport.AbstractInactivityMonitor.doOnewaySend(AbstractInactivityMonitor.java:282)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.oneway(AbstractInactivityMonitor.java:271)
+	at org.apache.activemq.transport.TransportFilter.oneway(TransportFilter.java:85)
+	at org.apache.activemq.transport.WireFormatNegotiator.oneway(WireFormatNegotiator.java:104)
+	at org.apache.activemq.transport.MutexTransport.oneway(MutexTransport.java:68)
+	at org.apache.activemq.transport.ResponseCorrelator.oneway(ResponseCorrelator.java:60)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1290)
+	... 10 more
+15:44:49.032 ERROR [pool-5-thread-1      ] ActiveMQMessageConsumer: - ID:MAVS09-64179-1402516042673-1:1:2:3 failed to delivered acknowledgements
+javax.jms.JMSException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:62)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1292)
+	at org.apache.activemq.ActiveMQConnection.asyncSendPacket(ActiveMQConnection.java:1284)
+	at org.apache.activemq.ActiveMQSession.asyncSendPacket(ActiveMQSession.java:1898)
+	at org.apache.activemq.ActiveMQSession.sendAck(ActiveMQSession.java:2064)
+	at org.apache.activemq.ActiveMQMessageConsumer$4.run(ActiveMQMessageConsumer.java:748)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.apache.activemq.transport.InactivityIOException: Cannot send, channel has already failed: tcp://0.0.0.0:24554
+	at org.apache.activemq.transport.AbstractInactivityMonitor.doOnewaySend(AbstractInactivityMonitor.java:282)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.oneway(AbstractInactivityMonitor.java:271)
+	at org.apache.activemq.transport.TransportFilter.oneway(TransportFilter.java:85)
+	at org.apache.activemq.transport.WireFormatNegotiator.oneway(WireFormatNegotiator.java:104)
+	at org.apache.activemq.transport.MutexTransport.oneway(MutexTransport.java:68)
+	at org.apache.activemq.transport.ResponseCorrelator.oneway(ResponseCorrelator.java:60)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1290)
+	... 10 more
+15:58:37.972 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:58:37.983 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+15:58:41.102 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:58:41.103 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:19:59.234 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:19:59.245 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:20:04.233 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:20:04.234 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:22:42.796 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:22:42.796 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:24:14.058 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:24:14.058 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:25:22.706 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:25:22.707 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:25:28.717 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:25:28.718 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+21:29:57.414 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+21:29:57.435 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+21:30:03.326 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+21:30:03.327 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+17:35:34.938 INFO  [JavaFX Application Thread] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+17:35:34.958 INFO  [JavaFX Application Thread] MTSClient           : - Connecting: 0.0.0.0:24554     
+17:35:57.289 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+17:35:57.290 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     
+17:36:16.119 INFO  [main                 ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+17:36:16.119 INFO  [main                 ] MTSClient           : - Connecting: 0.0.0.0:24554     

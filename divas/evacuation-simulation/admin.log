@@ -1,0 +1,193 @@
+11:37:12.920 WARN  [main                 ] BaseConfig          : - _vis configuration file not found in user home. Using default.
+11:37:13.172 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+11:37:13.403 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+11:37:13.403 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+11:37:13.405 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+11:37:13.405 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+11:37:13.540 WARN  [HostThrd-thread-2    ] BaseConfig          : - _sim configuration file not found in user home. Using default.
+11:37:13.549 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+11:37:13.585 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+11:37:13.585 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+11:38:11.257 INFO  [ActiveMQ Session Task-2] Host                : - Loading environment.          
+11:38:11.864 INFO  [ActiveMQ Session Task-3] Simulation          : - Simulation running.           
+11:38:11.864 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Starting heartbeat            
+14:27:40.421 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+14:27:40.727 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+14:27:40.728 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+14:27:40.730 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:27:40.730 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:27:40.876 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+14:27:41.247 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+14:27:41.247 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+14:28:39.142 INFO  [ActiveMQ Session Task-2] Simulation          : - Simulation running.           
+14:28:39.142 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Starting heartbeat            
+14:28:48.277 INFO  [ActiveMQ Session Task-2] Host                : - Loading environment.          
+14:28:49.475 INFO  [ActiveMQ Session Task-2] Simulation          : - Simulation running.           
+14:28:49.475 INFO  [LocalMTS-thread-3    ] Heartbeat           : - Starting heartbeat            
+14:47:18.314 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+14:47:18.538 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+14:47:18.540 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+14:47:18.541 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:47:18.541 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:47:18.690 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+14:47:18.729 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+14:47:18.729 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+14:47:23.531 INFO  [ActiveMQ Session Task-1] Simulation          : - Simulation running.           
+14:47:23.531 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Starting heartbeat            
+15:04:13.981 INFO  [ActiveMQ Session Task-2] Host                : - Loading environment.          
+15:04:14.744 INFO  [ActiveMQ Session Task-3] Simulation          : - Simulation running.           
+15:04:14.744 INFO  [LocalMTS-thread-10   ] Heartbeat           : - Starting heartbeat            
+15:43:41.548 INFO  [ActiveMQ Session Task-6] Simulation          : - Simulation paused.            
+15:58:21.785 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+15:58:22.052 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+15:58:22.053 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+15:58:22.054 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+15:58:22.054 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+15:58:22.196 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+15:58:22.226 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+15:58:22.226 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+15:58:38.553 INFO  [ActiveMQ Session Task-1] Simulation          : - Simulation running.           
+15:58:38.553 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Starting heartbeat            
+15:58:47.417 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 162        
+15:58:50.193 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 826        
+14:19:53.945 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+14:19:54.168 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+14:19:54.172 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+14:19:54.174 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:19:54.174 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:19:54.403 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+14:19:54.812 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+14:19:54.813 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+14:19:59.996 INFO  [ActiveMQ Session Task-1] Simulation          : - Simulation running.           
+14:19:59.996 INFO  [LocalMTS-thread-2    ] Heartbeat           : - Starting heartbeat            
+14:20:09.475 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 473        
+14:20:09.660 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 185        
+14:20:41.373 INFO  [ActiveMQ Session Task-1] SelfOrganizingEnvironment: - Setting strategy to: Autonomic
+14:22:33.942 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+14:22:34.168 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+14:22:34.169 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+14:22:34.171 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:22:34.171 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:22:34.312 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+14:22:34.351 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+14:22:34.351 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+14:22:44.506 INFO  [ActiveMQ Session Task-1] Simulation          : - Simulation running.           
+14:22:44.506 INFO  [LocalMTS-thread-2    ] Heartbeat           : - Starting heartbeat            
+14:25:19.032 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+14:25:19.258 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+14:25:19.259 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+14:25:19.260 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+14:25:19.260 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+14:25:19.404 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+14:25:19.434 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+14:25:19.434 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+14:25:25.603 INFO  [ActiveMQ Session Task-1] Simulation          : - Simulation running.           
+14:25:25.603 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Starting heartbeat            
+14:25:49.505 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 500        
+14:25:51.836 INFO  [LocalMTS-thread-3    ] Heartbeat           : - Simulation period: 231        
+14:26:00.338 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 252        
+14:26:00.565 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 227        
+14:26:04.858 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 393        
+14:26:05.372 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 363        
+14:26:06.636 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 664        
+14:26:07.902 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 366        
+14:26:10.053 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 351        
+14:26:10.880 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 377        
+14:26:11.183 INFO  [LocalMTS-thread-10   ] Heartbeat           : - Simulation period: 303        
+14:26:15.096 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 162        
+14:26:15.588 INFO  [LocalMTS-thread-3    ] Heartbeat           : - Simulation period: 192        
+14:26:15.899 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 161        
+14:26:16.220 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 171        
+14:26:16.570 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 200        
+14:26:16.942 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 222        
+14:26:17.110 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 168        
+14:26:18.412 INFO  [LocalMTS-thread-10   ] Heartbeat           : - Simulation period: 1302       
+14:26:18.649 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 237        
+14:26:18.844 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 195        
+14:26:19.015 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 170        
+14:26:19.252 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 237        
+14:26:19.501 INFO  [LocalMTS-thread-3    ] Heartbeat           : - Simulation period: 249        
+14:26:19.686 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 185        
+14:26:19.925 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 239        
+14:26:20.131 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 206        
+14:26:20.318 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 187        
+14:26:20.552 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 234        
+14:26:20.757 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 205        
+14:26:20.987 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 230        
+14:26:21.169 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 182        
+14:26:21.407 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 238        
+14:26:21.629 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 222        
+14:26:21.810 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 180        
+14:26:22.069 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 259        
+14:26:22.283 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 214        
+14:26:22.459 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 176        
+14:26:22.726 INFO  [LocalMTS-thread-2    ] Heartbeat           : - Simulation period: 267        
+14:26:22.960 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 234        
+14:26:23.194 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 234        
+14:26:23.375 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 180        
+14:26:23.622 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 247        
+14:26:23.831 INFO  [LocalMTS-thread-10   ] Heartbeat           : - Simulation period: 209        
+14:26:24.074 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 243        
+14:26:24.260 INFO  [LocalMTS-thread-3    ] Heartbeat           : - Simulation period: 186        
+14:26:24.500 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 240        
+14:26:24.735 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 235        
+14:26:24.918 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 183        
+14:26:25.152 INFO  [LocalMTS-thread-3    ] Heartbeat           : - Simulation period: 234        
+14:26:25.379 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 226        
+14:26:25.558 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 179        
+14:26:25.795 INFO  [LocalMTS-thread-10   ] Heartbeat           : - Simulation period: 237        
+14:26:26.014 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 219        
+14:26:26.192 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 178        
+14:26:26.425 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 232        
+14:26:26.673 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 248        
+14:26:26.902 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 228        
+14:26:27.082 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 179        
+14:26:27.335 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 253        
+14:26:27.547 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 212        
+14:26:27.790 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 243        
+14:26:27.977 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 187        
+14:26:28.214 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 237        
+14:26:28.451 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 237        
+14:26:28.636 INFO  [LocalMTS-thread-1    ] Heartbeat           : - Simulation period: 185        
+14:26:28.873 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 237        
+14:26:29.097 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 224        
+14:26:29.284 INFO  [LocalMTS-thread-7    ] Heartbeat           : - Simulation period: 187        
+14:26:29.524 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 240        
+14:26:29.533 INFO  [ActiveMQ Session Task-1] SelfOrganizingEnvironment: - Setting strategy to: Autonomic
+14:26:29.743 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 219        
+14:26:29.900 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 156        
+14:26:30.071 INFO  [LocalMTS-thread-5    ] Heartbeat           : - Simulation period: 170        
+14:26:30.376 INFO  [LocalMTS-thread-10   ] Heartbeat           : - Simulation period: 155        
+14:26:35.523 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Simulation period: 497        
+14:26:53.206 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 282        
+21:28:34.823 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+21:28:36.003 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+21:28:36.003 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+21:28:36.003 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+21:28:36.003 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+21:28:36.154 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+21:28:37.304 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+21:28:37.304 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+21:30:01.343 INFO  [ActiveMQ Session Task-2] Simulation          : - Simulation running.           
+21:30:01.343 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Starting heartbeat            
+17:32:55.043 INFO  [HostThrd-thread-1    ] Host                : - Creating local broker.        
+17:32:55.300 INFO  [HostThrd-thread-1    ] MTSBroker           : - Broker started: 0.0.0.0:24554. Using JMX: false.
+17:32:55.379 INFO  [HostThrd-thread-2    ] Host                : - Creating client.              
+17:32:55.380 INFO  [HostThrd-thread-2    ] MTSClient           : - Creating MTSClient instance: 0.0.0.0:24554
+17:32:55.380 INFO  [HostThrd-thread-2    ] MTSClient           : - Connecting: 0.0.0.0:24554     
+17:32:57.039 INFO  [HostThrd-thread-3    ] Host                : - Creating simulation.          
+17:33:03.336 INFO  [HostThrd-thread-3    ] Simulation          : - Simulator initialized for simulation @ 0.0.0.0:24554
+17:33:03.337 INFO  [HostThrd-thread-2    ] Host                : - Loading environment.          
+17:35:37.017 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Starting heartbeat            
+17:35:37.017 INFO  [ActiveMQ Session Task-2] Simulation          : - Simulation running.           
+17:35:41.523 INFO  [ActiveMQ Session Task-2] Simulation          : - Simulation running.           
+17:35:41.523 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Heartbeat already beating at cycle number 1
+17:35:43.210 INFO  [LocalMTS-thread-2    ] Heartbeat           : - Simulation period: 5070       
+17:36:11.497 INFO  [ActiveMQ Session Task-2] Host                : - Loading environment.          
+17:36:12.357 INFO  [ActiveMQ Session Task-2] Simulation          : - Simulation running.           
+17:36:12.357 INFO  [LocalMTS-thread-4    ] Heartbeat           : - Starting heartbeat            
+17:37:00.358 WARN  [EnvironmentThrd-thread-1] SelfOrganizingEnvironment: - Merge failed, sibling is still split: 0.1.1
+17:37:54.973 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 3161       
+17:38:00.443 INFO  [LocalMTS-thread-9    ] Heartbeat           : - Simulation period: 5470       
+17:38:01.534 INFO  [LocalMTS-thread-8    ] Heartbeat           : - Simulation period: 341        
+17:38:02.566 INFO  [LocalMTS-thread-6    ] Heartbeat           : - Simulation period: 281        
